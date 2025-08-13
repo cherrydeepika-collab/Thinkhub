@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ThinkHub</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f9fafb;
+      color: #333;
+    }
+    header {
+      background: linear-gradient(90deg, #4f46e5, #06b6d4);
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+    header p {
+      font-size: 1.2em;
+      margin-top: 10px;
+    }
+    nav {
+      background: white;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    nav a {
+      text-decoration: none;
+      color: #4f46e5;
+      font-weight: bold;
+    }
+    section {
+      padding: 50px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .feature-card {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+      text-align: center;
+    }
+    .feature-card h3 {
+      color: #4f46e5;
+    }
+    footer {
+      background: #4f46e5;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 50px;
+    }
+    button {
+      background: #06b6d4;
+      border: none;
+      padding: 10px 20px;
+      color: white;
+      font-size: 1em;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    button:hover {
+      background: #0891b2;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>ThinkHub</h1>
+    <p>Where Ideas Grow & Creativity Thrives</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#programs">Programs</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>ThinkHub is a platform dedicated to nurturing creativity, critical thinking, and collaboration. We bring together activities, workshops, and learning experiences that help individuals and teams unlock their full potential.</p>
+  </section>
+
+  <section id="programs">
+    <h2>Our Programs</h2>
+    <div class="features">
+      <div class="feature-card">
+        <h3>Creative Thinking</h3>
+        <p>Engaging exercises that spark imagination and problem-solving skills.</p>
+      </div>
+      <div class="feature-card">
+        <h3>Life Skills</h3>
+        <p>Interactive activities that build confidence, communication, and teamwork.</p>
+      </div>
+      <div class="feature-card">
+        <h3>Workshops</h3>
+        <p>Hands-on sessions for schools, companies, and communities.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>We’d love to hear from you! Drop us a message and let’s start something amazing together.</p>
+    <button>Email Us</button>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 ThinkHub. All rights reserved.</p>
+  </footer>
+</body>
+</html>
